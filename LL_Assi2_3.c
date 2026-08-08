@@ -1,5 +1,6 @@
 //Question 3: Count the Number of Nodes
 
+
 #include <stdio.h>
 #include <stdlib.h>
 
