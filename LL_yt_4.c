@@ -1,4 +1,4 @@
-// Program to count the number of nodes in a singly linked list
+// Program to print the data of singly linked list
 
 #include <stdio.h>
 #include <stdlib.h>
