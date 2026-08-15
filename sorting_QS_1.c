@@ -1,3 +1,5 @@
+// example of quick sort
+// 
 #include <stdio.h>
 
 void quick_sort(int a[], int l, int r);
