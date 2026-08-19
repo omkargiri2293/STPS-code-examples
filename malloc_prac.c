@@ -2,6 +2,7 @@
 //calloc() =allocates space for array of elements,initialize all of them to zero
 //free() = frees previously allocated space
 //realloc()=modifies prv allocated space
+//
 
 #include<stdio.h>
 #include<stdint.h>
