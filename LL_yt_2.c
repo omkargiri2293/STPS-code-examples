@@ -20,9 +20,9 @@ head->link=next1;
 
 /*
 Specific pointer
-int *       → "I point to an int"
-char *      → "I point to a char"
-struct node * → "I point to a node"
+int *         → "point to an int"
+char *        → "point to a char"
+struct node * → "point to a node"
 
 Generic pointer
 void *      → "I point to something. I don't care about its type right now."
