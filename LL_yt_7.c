@@ -4,10 +4,13 @@ case 2- Array is full
 
 */
 
-//case 1-array is not full
-//time complexity = O(1)
 #include <stdio.h>
 #include <stdlib.h>
+
+/*
+//case 1-array is not full
+//time complexity = O(1)
+
 
 int main(){
     int a[10];
@@ -34,4 +37,29 @@ int add_at_end(int a[],int freepos,int value){
     a[freepos]=value;
     freepos++;
     return freepos;
+}
+
+*/
+
+//case 2 - Array is full
+
+int main(){
+    int a[10];
+    int i,n,freepos;
+
+    printf("enter no of elements = ");
+    scanf("%d",&n);
+    for(i=0;i<n;i++){
+        scanf("%d",&a[i]);
+    }
+
+    int size =sizeof(a)/sizeof(a[0]);
+    freepos=n;
+    if(n==size){
+        int b[size+2];
+        freepos = add_at_end(a,b,size,freepos,65);
+        for(i=0;i<freepos;i++)
+        printf("%d",b[i]);
+    }return 0;
+
 }
