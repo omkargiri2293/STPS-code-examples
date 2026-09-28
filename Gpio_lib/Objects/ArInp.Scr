@@ -1,0 +1,2 @@
+--create .\Objects\GPIO_lib.lib
+.\objects\gpio_lib.o

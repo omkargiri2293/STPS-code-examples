@@ -1,0 +1,3 @@
+--create ".\Objects\SSD Lib.lib"
+.\objects\ssd_lib.o
+..\..\Gpio_lib\Objects\GPIO_lib.lib

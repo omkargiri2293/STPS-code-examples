@@ -1,0 +1,2 @@
+--create ".\Objects\LCD lib.lib"
+.\objects\lcd_lib.o
