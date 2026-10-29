@@ -21,7 +21,7 @@ int main()
     // std::cout<<"no of 'a in string: "<<count<<std::endl;
 
     stringConcatenate(inputSentence,"welcome to COEP");
-    
+    std::cout<<"concatenated string: "<<inputSentence<<std::endl;
     return 0;
 
 }
@@ -62,7 +62,7 @@ int stringCompare(const char* str1, const char* str2) {
 }
 //concatenate the source string to the destination string
 void stringConcatenate(std::string &destination, const std::string &source) {
-   source += destination ;
+   destination += source ;
 }
 
 // no of character in the string
